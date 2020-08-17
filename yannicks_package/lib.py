@@ -6,6 +6,8 @@
 from os.path import split
 import pandas as pd
 import datetime
+import webbrowser
+
 
 pd.set_option('display.width', 200)
 
@@ -47,6 +49,8 @@ def clean_data(data):
     data.loc[:, 'Frequency'] = data['Frequency'].map(drows)
     return data
 
+def try_me():
+    webbrowser.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ', new = 2)
 
 if __name__ == '__main__':
     # For introspections purpose to quickly get this functions on ipython
