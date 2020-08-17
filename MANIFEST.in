@@ -1,0 +1,3 @@
+graft yannicks_package
+global-exclude *.py[cod] __pycache__ *.so *.ipynb
+recursive-exclude  yannicks_package/jupy *
